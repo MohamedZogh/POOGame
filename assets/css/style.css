@@ -1,0 +1,119 @@
+*{
+    max-width: 100vw;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 60, 79, 0.77);
+}
+#background{
+    width: 40vw;
+    display: none;
+}
+#modal-container{
+    position: absolute;
+    top: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#inscription{
+    display: none;
+    width: auto!important;
+}
+#inscription .modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inscription .container-img img{
+    width: 5vw;
+    cursor: pointer;
+}
+#liste{
+    display: none;
+    width: auto!important;
+}
+#liste .modal-body{
+    padding: 6px!important;
+}
+#connected{
+    display: none;
+    width: 18vw!important;
+    position: relative;
+}
+#points-modal{
+    display: none;
+    width: auto!important;
+    position: absolute;
+    top: 10vh;
+    left: 12vw;
+}
+#adversaire{
+    display: none;
+    width: 18vw!important;
+}
+.img-type{
+    position: absolute;
+    top: 17%;
+    right: 20%;
+    width: 4vw;
+}
+#action{
+    display: none;
+    width: auto!important;
+    height: 11vh!important;
+}
+#resultat{
+    display: none;
+    width: auto!important;
+    position: absolute;
+    bottom: 15vh;
+}
+#details{
+    display: none;
+    width: 40vw!important;
+    position: absolute;
+    bottom: 2vh;
+    right: 1vw;
+    height: 50vh;
+}
+#details .modal-body{
+    height: 87%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#classement{
+    display: none;
+    width: auto!important;
+    position: absolute;
+    bottom: 15vh;
+}
+#classment-btn{
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+#level-up{
+    display: none;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+}
+.tr-list{
+    cursor: pointer;
+}
+.tr-list:hover{
+    background-color: #1f8047;
+}
